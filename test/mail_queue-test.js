@@ -15,8 +15,8 @@ exports["Mail_queue-test"] = {
 		test.expect(2);
 		
 		var message = {
-			mail_from: '<pr_125@hotmail.com>',
-			rcpt_to: '<pr_125@hotmail.com>',
+			mail_from: '<some_mail@domain.com>',
+			rcpt_to: '<other_mail@domain.com>',
 			data: 'This is some data \r\n.\r\n'
 		};
 		this.queue.insert(message);
