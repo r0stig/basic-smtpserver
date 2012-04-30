@@ -1,6 +1,6 @@
 settings = {
 	server_port: 3025
-	, server_host: "minmaskin.test.se"
+	, server_host: "experimental.zapto.org"
 };
 
 exports.settings = settings;
