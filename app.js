@@ -6,8 +6,9 @@
 	Twitter: r0stig
 */
 var smtp_server = require('./lib/server')
+	, winston = require("winston")
 	;
-
+winston.add(winston.transports.File, { filename: "./logs/main.log" } );
 
 smtp_server.start();
 
